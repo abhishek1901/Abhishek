@@ -1,7 +1,17 @@
 ------------------------------Installations-----------------------------------------
-Note: This application does not require any speacial requirement or files to be downloaded in order to run this app. 
-The app can run on any such terminals like visualstudiocode, pycharm , juptyer notebooks , anaconda and other such synonymous platforms
-or simply the command prompt terminal
+This application can run on any code editor such as visualstudiocode, pycharm, jupyter notebooks, anaconda, etc or even the terminal itself after 
+installing some of the python libraries mentioned in the list below.
+Python Library Requirements:
+1.Opencv-python
+2.Numpy
+3.Pillow
+4.pytesseract
+5.tkintertable
+and also the latest version of the executable file of tesseract from the internet and correctly added to the path for the app to function correctly.
+
+The link to installation of tesseract is given below:
+Installation:https://github.com/UB-Mannheim/tesseract/wiki
+Instructions:https://github.com/tesseract-ocr/tessdoc/blob/master/Home.md
 
 ------------------------------Working Instructions----------------------------------
 Steps:-
