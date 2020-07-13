@@ -3,15 +3,14 @@ import numpy as np
 
 img = cv2.imread('Desktop\dog.jpeg')
 
-print(img.shape)
+w = img.shape[0]
+h = img.shape[1]
 
-cv2.line(img,(0,0),(1100,628),(255,0,0),5)
+cv2.line(img,(0,0),(w,h),(255,0,0),5)
 
-while True:
-    cv2.imshow('frame',img)
-
-    if cv2.waitKey(1) & 0xFF == ord('q'):
-        break
+cv2.namedWindow('frame',cv2.WINDOW_NORMAL)
+cv2.imshow('frame',img)
+cv2.waitKey(0)
 
 
 
