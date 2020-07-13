@@ -3,7 +3,7 @@ import numpy as np
 
 img = cv2.imread('IMG_3879.jpg')
 
-img_new = cv2.resize(img,(600,600))
+img_new = cv2.resize(img,(500,500))
 
 
 point = []
@@ -16,11 +16,11 @@ def crop(event,x,y,flags,param):
         if len(point) == 4:
             pts1 = np.array((point[0],point[1],point[2],point[3]),np.float32)
 
-            pts2 = np.array(((0,0),(0,1000),(1000,0),(1000,1000)),np.float32)
+            pts2 = np.array(((0,0),(0,500),(500,0),(500,500)),np.float32)
 
             perspective = cv2.getPerspectiveTransform(pts1,pts2)
 
-            transformed = cv2.warpPerspective(img_new,perspective,(2 00,200))
+            transformed = cv2.warpPerspective(img_new,perspective,(500,500))
 
             cv2.imshow('img1',transformed)
 
