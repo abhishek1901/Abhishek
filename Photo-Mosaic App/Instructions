@@ -1,3 +1,0 @@
-Download/Copy all the 4 .py files, namely control pieces,triangulation test,merge adjacent triangles and final project onto your code editors and run the final project.py file. 
-Make sure you have installed python libraries such as opencv,pillow,numpy and tkintertable before running the program.
-If not then pip install these prior to running the program.
