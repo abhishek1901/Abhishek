@@ -1,7 +1,0 @@
-<?xml version="1.0"?>
-<launch>
-    <node pkg="image_view" type="stereo_view" name="">
-        <remap from="image" to="image_rect"/>
-        <remap from="stereo" to="/"/>       
-    </node>
-</launch>

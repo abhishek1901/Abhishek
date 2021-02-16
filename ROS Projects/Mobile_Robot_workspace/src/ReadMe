@@ -1,0 +1,11 @@
+Instructions to run the model.
+Add the folders to the a src folder of your workspace
+In the terminal drive into your workspace and then catkin_make and source it.
+Then use the code roslaunch mybot_gazebo mybot_world.launch.
+This would launch your bot in gazebo.
+
+In another tab of your terminal use 
+
+rosrun turtlesim turtle_teleop_key /turtle1/cmd_vel:=/mybot/cmd_vel
+
+then use the arrow keys to move the bot.
